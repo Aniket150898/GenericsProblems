@@ -9,7 +9,7 @@ namespace Generic
     internal class Generics
     {
         public int Num1, Num2, Num3;
-        public int data(int Num1, int Num2, int Num3)
+        public double data(double Num1, double Num2, double Num3)
         {
             if (Num1.CompareTo(Num2) > 0 && Num1.CompareTo(Num3) > 0)
             {
@@ -24,6 +24,7 @@ namespace Generic
                 return Num3;
             }
             return Num1;
+
         }
     }
 }

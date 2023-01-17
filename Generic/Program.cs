@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, Guy's!!!, Welcome To Generic Problems ");
+            Generics Number = new Generics();
+            int MaximumNumber = Number.data(22, 44, 90);
+            Console.WriteLine("Maximum Integer is " + MaximumNumber);
         }
     }
 }
